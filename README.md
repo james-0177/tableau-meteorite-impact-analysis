@@ -24,5 +24,3 @@ An interactive 8-tab Tableau analytical application exploring the spatial, tempo
 4. **Time-Series Evolution:** Why does the recorded landing volume spike exponentially after 1950? (Isolating search effort/technology from atmospheric frequency).
 
 ---
-
-## 💾 Repository Structure
