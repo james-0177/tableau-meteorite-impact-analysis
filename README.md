@@ -1,6 +1,6 @@
 # Falling from the Sky: A Global Meteorite Impact Analysis
 
-![Dashboard Overview]()
+![Dashboard Overview](/assets/dashboard_preview.png)
 
 ## 📌 Executive Summary
 An interactive 8-tab Tableau analytical application exploring the spatial, temporal, and mass distributions of over 45,000 recorded meteorite impact landings worldwide. This project highlights geospatial data modeling, logarithmic statistical normalization, and historical time-series analysis.
