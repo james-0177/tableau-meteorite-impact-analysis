@@ -10,7 +10,7 @@ An interactive 8-tab Tableau analytical application exploring the spatial, tempo
 ---
 
 ## 🛠️ Data Architecture & Methodology
-* **Data Source:** NASA Open Data Portal & The Meteoritical Society (45,000+ observations, 860 CE – 2013 CE).
+* **Data Source:** NASA Open Data Portal & The Meteoritical Society (45,000+ observations, 860 CE – 2013 CE). -> [DATASET](https://www.kaggle.com/datasets/sujaykapadnis/meteorites-dataset?select=meteorites.csv)
 * **Mass Distribution Normalization:** Raw meteorite masses span multiple orders of magnitude (from <1g to 60,000,000g). Applied a $\log_{10}(\text{Mass})$ transformation to eliminate extreme right-skewness and visualize frequency distribution cleanly.
 * **Geospatial Mapping:** Utilized Tableau’s native spatial mapping and coordinate plotting to visualize global landing density, isolate coastal/desert recovery zones, and map the top 10 largest historic impacts.
 * **Temporal Trend Analysis:** Mapped annual landing counts across a 1,000+ year timeline to isolate discovery/reporting bias vs. physical impact frequency.
@@ -18,9 +18,9 @@ An interactive 8-tab Tableau analytical application exploring the spatial, tempo
 ---
 
 ## 📊 Core Research Questions Addressed
-1. **Global Spatial Distribution:** Where are recorded meteorite impacts clustered worldwide?
-2. **Mass Profiling:** How are payload masses distributed on a $\log_{10}$ logarithmic scale?
-3. **Historical Top-10:** Where did the largest recorded payloads impact (e.g., Cape York 1818, Campo del Cielo 1575, Gibeon 1836)?
-4. **Time-Series Evolution:** Why does the recorded landing volume spike exponentially after 1950? (Isolating search effort/technology from atmospheric frequency).
+1. **Global Spatial Distribution:** What is the overall global distribution of meteorite impacts (by year)? Where have the largest meteorites impacted globally (by mass)?
+2. **Mass Profiling:** How are the masses of meteorites distributed globally (using a $\log_{10}$ logarithmic scale)?
+3. **Time-Series Evolution:** How have meteorite impacts changed over time? Is there a relationship between mass of the meteorite and the year of impact?
+4. **Global Distribution - Historical Top-10:** What are the top 10 largest meteorite impacts throughout history, and where did they impact?
 
 ---
